@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.position {
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-rows: 1fr;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+section {
+    margin: 0 auto;
+}
+
+h4 {
+    border-bottom: 2px dotted gray;
+    text-transform: capitalize;
+    display: inline-block;
+}
+
+.post {
+    /* width: 100%; */
+}
