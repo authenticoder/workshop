@@ -9,7 +9,8 @@ body {
     display: grid;
     grid-template-rows: 1fr;
     width: 100%;
-    height: auto;
+    height: unset; /**/
+    min-height: 100vh; /* you can approach height this way so that page looks better when fetch is in progress, either when the page is loaded or reloaded*/
     margin: 0 auto;
 }
 
